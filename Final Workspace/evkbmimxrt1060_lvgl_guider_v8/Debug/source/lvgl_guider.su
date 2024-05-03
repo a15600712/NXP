@@ -1,0 +1,14 @@
+C:\NXP\GUI-Guider-Projects\Password\sdk\Core\CMSIS/core_cm7.h:1911:22:__NVIC_EnableIRQ	16	static
+C:\NXP\GUI-Guider-Projects\Password\sdk\Core\drivers/fsl_common_arm.h:514:24:EnableIRQ	24	static
+C:\NXP\GUI-Guider-Projects\Password\sdk\Core\lvgl\lvgl/src/lv_api_map.h:35:51:lv_task_handler	8	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:47:17:get_idle_time_cb	8	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:52:13:reset_idle_time_cb	8	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:57:13:AppTask	16	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:102:6:InitUartConnect	32	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:121:6:ShowNumber	24	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:140:5:main	24	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:188:6:vApplicationMallocFailedHook	8	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:199:6:vApplicationTickHook	8	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:210:6:vApplicationStackOverflowHook	16	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:219:6:vApplicationGetIdleTaskMemory	24	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/lvgl_guider.c:246:6:vApplicationGetTimerTaskMemory	24	static

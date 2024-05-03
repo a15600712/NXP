@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/utilities/fsl_memcpy.S
+
+C:/NXP/GUI-Guider-Projects/Password/sdk/armgcc/startup/startup_MIMXRT1062.S
+

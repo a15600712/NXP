@@ -1,0 +1,376 @@
+!SESSION 2024-05-03 01:13:37.021 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\anon\Desktop\Final Workspace
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-05-03 01:13:40.885
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2024-05-03 01:13:46.194
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-03 01:13:49.033
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\anon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2024-05-03 01:13:50.448
+!MESSAGE The device 'MIMXRT1062xxxxB' (version='1.0.0') from SDK 'SDK_2.x_MIMXRT1060-EVKB' (version='2.15.000', build='801 2024-01-15') will be installed.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2024-05-03 01:13:51.755
+!MESSAGE The device 'MIMXRT1062xxxxA' (version='1.0.0') from SDK 'SDK_2.x_EVK-MIMXRT1060' (version='2.15.000', build='801 2024-01-15') will be installed.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-03 01:15:11.543
+!MESSAGE Indexed 'evkbmimxrt1060_lvgl_guider_v8' (285 sources, 607 headers) in 18.8 sec: 66,566 declarations; 171,978 references; 1 unresolved inclusions; 260 syntax errors; 762 unresolved names (0.32%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-03 01:16:38.886
+!MESSAGE Indexed 'evkbmimxrt1060_lvgl_guider_v8' (285 sources, 622 headers) in 7.37 sec: 71,310 declarations; 178,694 references; 1 unresolved inclusions; 260 syntax errors; 755 unresolved names (0.3%)
+
+!ENTRY com.crt.log 1 0 2024-05-03 01:20:34.005
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 01:20:34.010
+!MESSAGE RedlinkServer telnet session connected on port 3025->10344 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 01:20:43.974
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.4.85/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=10387, -g, -mi, -2, -pMIMXRT1062xxxxB, -vendor=NXP, --connectscript=RT1060_connect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/anon/Desktop/Final Workspace/evkbmimxrt1060_lvgl_guider_v8/Debug, --flash-dir, C:/nxp/LinkServer_1.4.85/binaries/Flash, --flash-dir, C:/Users/anon/Desktop/Final Workspace/.mcuxpressoide_packages_support/MIMXRT1062xxxxB_support/Flash, --telnet, 3330, --no-packed ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-05-03 01:20:46.505
+!MESSAGE Telnet session connected on port 3330->10404 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 01:22:31.149
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 01:22:32.156
+!MESSAGE RedlinkServer telnet session connected on port 3025->10532 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 01:23:11.649
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 01:23:12.664
+!MESSAGE RedlinkServer telnet session connected on port 3025->11696 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 01:23:16.253
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.4.85/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=11713, -g, -mi, -2, -pMIMXRT1062xxxxB, -vendor=NXP, --connectscript=RT1060_connect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/anon/Desktop/Final Workspace/evkbmimxrt1060_lvgl_guider_v8/Debug, --flash-dir, C:/nxp/LinkServer_1.4.85/binaries/Flash, --flash-dir, C:/Users/anon/Desktop/Final Workspace/.mcuxpressoide_packages_support/MIMXRT1062xxxxB_support/Flash, --telnet, 3330, --no-packed ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-05-03 01:23:18.755
+!MESSAGE Telnet session connected on port 3330->11735 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 01:25:09.792
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 01:25:10.811
+!MESSAGE RedlinkServer telnet session connected on port 3025->11843 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 01:26:45.073
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 01:26:46.079
+!MESSAGE RedlinkServer telnet session connected on port 3025->12007 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 01:26:49.150
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.4.85/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=12016, -g, -mi, -2, -pMIMXRT1062xxxxB, -vendor=NXP, --connectscript=RT1060_connect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/anon/Desktop/Final Workspace/evkbmimxrt1060_lvgl_guider_v8/Debug, --flash-dir, C:/nxp/LinkServer_1.4.85/binaries/Flash, --flash-dir, C:/Users/anon/Desktop/Final Workspace/.mcuxpressoide_packages_support/MIMXRT1062xxxxB_support/Flash, --telnet, 3330, --no-packed ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-05-03 01:26:51.647
+!MESSAGE Telnet session connected on port 3330->12038 @ 127.0.0.1
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-05-03 01:28:07.416
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.log.Logger.log(Object, int, String, java.lang.Throwable)" because "this.logger" is null
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:68)
+	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1612)
+	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1591)
+	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1578)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:175)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-05-03 16:23:05.645 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-05-03 16:23:11.351
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-03 16:23:27.364
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\anon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-05-03 16:28:52.701 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-05-03 16:28:57.561
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-03 16:29:14.303
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\anon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-03 16:49:26.396
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-05-03 16:50:20.515 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-03 16:50:22.085
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-05-03 16:50:25.524
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-03 16:50:35.616
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\anon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 1 0 2024-05-03 16:51:25.118
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 16:51:26.124
+!MESSAGE RedlinkServer telnet session connected on port 3025->4488 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2024-05-03 16:51:26.624
+!MESSAGE There is already a running debug session for the launch configuration 'evkbmimxrt1060_lvgl_guider_v8 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2024-05-03 16:51:34.653
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.4.85/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=4540, -g, -mi, -2, -pMIMXRT1062xxxxB, -vendor=NXP, --connectscript=RT1060_connect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/anon/Desktop/Final Workspace/evkbmimxrt1060_lvgl_guider_v8/Debug, --flash-dir, C:/nxp/LinkServer_1.4.85/binaries/Flash, --flash-dir, C:/Users/anon/Desktop/Final Workspace/.mcuxpressoide_packages_support/MIMXRT1062xxxxB_support/Flash, --telnet, 3330, --no-packed ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-05-03 16:51:37.643
+!MESSAGE Telnet session connected on port 3330->4563 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 16:56:13.145
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 16:56:14.150
+!MESSAGE RedlinkServer telnet session connected on port 3025->4824 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 16:56:17.905
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.4.85/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=4827, -g, -mi, -2, -pMIMXRT1062xxxxB, -vendor=NXP, --connectscript=RT1060_connect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/anon/Desktop/Final Workspace/evkbmimxrt1060_lvgl_guider_v8/Debug, --flash-dir, C:/nxp/LinkServer_1.4.85/binaries/Flash, --flash-dir, C:/Users/anon/Desktop/Final Workspace/.mcuxpressoide_packages_support/MIMXRT1062xxxxB_support/Flash, --telnet, 3330, --no-packed ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-05-03 16:56:20.376
+!MESSAGE Telnet session connected on port 3330->4841 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-05-03 17:02:52.151
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-05-03 17:02:52.151
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-05-03 17:02:52.151
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-05-03 17:02:52.151
+!MESSAGE Debugging context: evkbmimxrt1060_lvgl_guider_v8 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-05-03 17:03:10.640
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@772bef71): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-05-03 17:03:10.640
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-05-03 17:03:11.102
+!MESSAGE 19: Could not stop execution from running: Ee(A5). Wire protocol for probe is not initialized
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-05-03 17:03:11.102
+!MESSAGE 19: Could not stop execution from running: Ee(A5). Wire protocol for probe is not initialized
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-05-03 17:03:11.102
+!MESSAGE Debugging context: evkbmimxrt1060_lvgl_guider_v8 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-05-03 17:03:18.325
+!MESSAGE Request for monitor: '131^error,msg="Could not read registers; remote failure reply 'E22'"' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-05-03 17:03:18.325
+!MESSAGE Failed to execute MI command:
+-thread-info
+Error message from debugger back end:
+Could not read registers; remote failure reply 'E22'
+!STACK 0
+java.lang.Exception: Could not read registers; remote failure reply 'E22'
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.crt.log 1 0 2024-05-03 17:03:26.341
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 17:03:27.350
+!MESSAGE RedlinkServer telnet session connected on port 3025->5051 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 17:13:14.632
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-05-03 17:13:15.638
+!MESSAGE RedlinkServer telnet session connected on port 3025->5467 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-05-03 17:13:20.226
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.4.85/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=5471, -g, -mi, -2, -pMIMXRT1062xxxxB, -vendor=NXP, --connectscript=RT1060_connect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/anon/Desktop/Final Workspace/evkbmimxrt1060_lvgl_guider_v8/Debug, --flash-dir, C:/nxp/LinkServer_1.4.85/binaries/Flash, --flash-dir, C:/Users/anon/Desktop/Final Workspace/.mcuxpressoide_packages_support/MIMXRT1062xxxxB_support/Flash, --telnet, 3330, --no-packed ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-05-03 17:13:22.921
+!MESSAGE Telnet session connected on port 3330->5486 @ 127.0.0.1

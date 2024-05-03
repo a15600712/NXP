@@ -1,0 +1,1 @@
+GEN_CSRCS += _monkey_alpha_190x195.c _notallow_alpha_182x189.c _logout_35x35.c _arrow_32x32.c

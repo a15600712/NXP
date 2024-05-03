@@ -1,0 +1,7 @@
+C:\NXP\GUI-Guider-Projects\Password\sdk\Core\drivers/fsl_lpuart.h:776:23:LPUART_ReadByte	32	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/Monitor.c:43:6:LPUART1_IRQHandler	16	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/Monitor.c:63:6:MonitorInit	8	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/Monitor.c:68:6:MonitorRegisterFunctions	16	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/Monitor.c:84:6:UartSend	24	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/Monitor.c:107:1:MonitorParseAndExec	160	static
+C:/NXP/GUI-Guider-Projects/Password/sdk/Core/source/Monitor.c:183:6:UartReciveAndAck	16	static

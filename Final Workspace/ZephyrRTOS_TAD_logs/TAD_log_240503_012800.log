@@ -1,0 +1,12 @@
+"Task Aware Debugger for GDB" version 11.9.0 (202311161535)
+Copyright 2016-2023 NXP
+==================================
+01:26:46.255 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\anon\Desktop\Final Workspace\evkbmimxrt1060_lvgl_guider_v8\Debug\.config (The system cannot find the file specified)]
+01:26:46.255 INFO: [TadModel] DSF session ID 2 has started.
+01:26:53.344 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+01:26:53.485 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+01:27:15.199 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+01:27:15.387 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+01:27:17.190 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+01:27:58.508 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+01:28:00.651 INFO: [TadModel] DSF session ID 2 has ended.

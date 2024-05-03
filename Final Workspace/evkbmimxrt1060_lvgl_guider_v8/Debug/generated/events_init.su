@@ -1,0 +1,10 @@
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:19:13:Login_Screen_LoginEnter_event_handler	48	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:35:6:events_init_Login_Screen	16	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:39:13:SystemControl_SystemSwitch_event_handler	32	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:68:13:SystemControl_Unlock_event_handler	48	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:82:13:SystemControl_Logout_event_handler	48	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:96:6:events_init_SystemControl	16	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:102:13:UnlockControl_Matrix_event_handler	32	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:156:13:UnlockControl_PreviousPage_event_handler	48	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:170:6:events_init_UnlockControl	16	static
+C:/NXP/GUI-Guider-Projects/Password/generated/events_init.c:176:6:events_init	16	static
